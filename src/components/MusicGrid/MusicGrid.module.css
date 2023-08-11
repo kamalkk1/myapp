@@ -1,0 +1,14 @@
+/* MusicGrid.module.css */
+
+.music-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .music-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
