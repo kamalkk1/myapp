@@ -1,0 +1,30 @@
+.card-main{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    cursor: pointer;
+    width: 160px;
+    height: fit-content;
+    overflow: hidden;
+    gap: 6px;
+}
+
+
+
+.follow-content{
+    background-color: var(--dark-color);
+    width: fit-content;
+    padding: 4px 8px;
+    margin: 3px 6px 6px 6px;
+    border-radius: 10px;
+    align-items: flex-start;
+    color: var(--light-color);
+    font-size: 10px;
+}
+.title{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--light-color);
+    margin-top: 6px;
+    text-align:center
+}

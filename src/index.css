@@ -1,27 +1,39 @@
 :root{
-  --color-primary: #34c94b;
-  --color-balck: #121212;
-  --color-white: #fff;
+  --theme-color: #34c94b;
+  --dark-color: #121212;
+  --light-color: #ffffff;
 }
-
-*,
-*::before, 
-*::after {
-  box-sizing: border-box;
-}
-
-* {
+*{
   margin: 0;
+  padding: 0;
 }
-
-html,body {
-  height: 100%;
+body{
+  font-family: 'poppins', sans-serif;
+  background-color: var(--dark-color);
+  /* overflow-x: hidden !important; */
 }
+*,*::after,*::before{
+  box-sizing: border-box;
 
-body {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-  background-color: var(--color-balck);
-  color: var(--color-white);
-  overflow-x: hidden;
+}
+.d-flex{
+  display: flex;
+}
+/* to avoid blue layer in mobile devices */
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+}
+a:focus,a:visited,a:active{
+  outline: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+.swiper-slide{
+  width: min-content !important;
 }
