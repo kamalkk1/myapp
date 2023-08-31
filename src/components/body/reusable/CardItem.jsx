@@ -19,8 +19,8 @@ const CardItem = (props) => {
     fontSize:"12px",
     fontWeight: "bold",
     borderRadius:"15px",
-    boxShadow: " 0 0 15px green",
-    border: "1px solid green",
+    boxShadow: " 0 0 15px grey",
+    border: "1px solid grey",
   },
   
 }));
